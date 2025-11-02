@@ -1,0 +1,16 @@
+{
+  "model": {
+    "name": "minicpm-v",
+    "alternatives": [
+      "minicpm-v:latest"
+    ],
+    "ollama_host": "http://localhost:11434"
+  },
+  "ui": {
+    "window_size": "600x700",
+    "start_minimized": false
+  },
+  "ocr": {
+    "prompt": "Copy the text from the image character by character. Do not use *text* or **text** or ###text or any special symbols for formatting. Write plain text only. Preserve line breaks."
+  }
+}
